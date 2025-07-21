@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Login</title>
+  </head>
+  <body class="bg-green-900 min-h-screen flex justify-center items-center">
+    <div
+      class="w-full lg:w-[90%] xl:w-[80%] bg-white rounded-none lg:rounded-2xl grid grid-cols-1 lg:grid-cols-2 p-6 lg:h-[90%]"
+    >
+      <!-- فرم ورود -->
+      <div
+        class="w-full lg:w-3/4 mx-auto flex justify-center flex-col order-2 lg:order-1"
+      >
+        <h1 class="font-bold text-2xl mb-3">Welcome Back!</h1>
+        <p class="text-sm text-grey-500">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          unde tenetur facere corrupti in optio, quod nobis quo provident.
+        </p>
+        <label class="flex flex-col mt-5">
+          <span class="mb-1">Email</span>
+          <input
+            class="border border-gray-500 bg-gray-200 px-3 py-2 rounded outline-0 text-sm"
+            placeholder="Example@Gmail.com"
+          />
+        </label>
+        <label class="flex flex-col mt-5">
+          <span class="mb-1">Password</span>
+          <input
+            class="border border-gray-500 bg-gray-200 px-3 py-2 rounded outline-0 text-sm"
+            placeholder="At least 8 Characters"
+          />
+        </label>
+        <a class="w-full text-blue-800 flex justify-end font-bold text-sm mt-3"
+          >Forget Password?</a
+        >
+        <button
+          class="bg-green-900 flex justify-center items-center rounded text-white py-2 mt-5"
+        >
+          Sign in
+        </button>
+
+        <div class="flex justify-center items-center my-6">
+          <div class="flex-grow border-t border-gray-300"></div>
+          <span class="text-gray-500 mx-4">OR</span>
+          <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a class="flex justify-center items-center rounded bg-gray-200 py-3">
+            <img class="w-[30px]" src="img/icons8-google-50.png" />
+            <span class="text-gray-600 font-bold text-sm"
+              >Sign in with Google</span
+            >
+          </a>
+          <a class="flex justify-center items-center rounded bg-gray-200 py-3">
+            <img class="w-[30px]" src="img/icons8-facebook-48.png" />
+            <span class="text-gray-600 font-bold text-sm"
+              >Sign in with Facebook</span
+            >
+          </a>
+        </div>
+
+        <div class="text-sm text-gray-500 my-6 text-center font-bold">
+          Don't You Have An Account?
+          <a class="text-blue-800">SignUp</a>
+        </div>
+      </div>
+
+      <!-- تصویر سمت راست -->
+      <div class="order-1 lg:order-2 max-h-[200px] lg:max-h-full mb-8 lg:mb-0">
+        <img
+          src="img/treephoto31.jpg"
+          class="w-full h-full object-cover rounded-2xl"
+        />
+      </div>
+    </div>
+  </body>
+</html>
