@@ -2,7 +2,7 @@
 
 #### ![Languages](https://img.shields.io/github/languages/count/zeynab-jalalian/Login-Tailwind-) :
 
- - ![HTML](https://img.shields.io/badge/Html-orange)
+ - ![HTML](https://img.shields.io/badge/Html-orange) (![TailwindCSS](https://img.shields.io/badge/TailwindCSS-blue))
 
    
    ---
